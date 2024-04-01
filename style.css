@@ -10,9 +10,34 @@ text-transform: uppercase;
 justify-content: center;
 align-items: center;
 text-align: center;
-
-
 }
+
+.link1 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.link2 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 body {
     background-color: aliceblue;
     justify-content: center;
@@ -23,7 +48,6 @@ body {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    text-decoration: underline;
     text-transform: uppercase;
     justify-content: center;
     align-items: center;
@@ -52,7 +76,7 @@ body {
 
 #form {
     color: black;
-    padding: 100px 80px 50px;
+    padding: 20px;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -76,8 +100,20 @@ body {
 
         }
 
+.resultparams {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+
+
+}
+
 #subt {
-    background-color: black;
+    background-color: #04AA6D;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -88,18 +124,32 @@ body {
     border-radius: 10px;
     text-transform: uppercase;
     color: white;
+    cursor: pointer;
 
 }
 
-.resultparams {
-    color: black;
-    padding: 5px 0px 500px;
+.msgloworhi{
+    color: red;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
     align-items: center;
 
+}
 
+#NewGame {
+    background-color: #04AA6D;
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
 
 }
+

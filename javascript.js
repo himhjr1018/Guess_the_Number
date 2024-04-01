@@ -51,7 +51,7 @@ function checkGuess(guess) {
     }else if (guess < ran) {
         displayMessage(`Too Low!`)
     }else if (guess > ran) {
-        displayMessage(`Too low!`)
+        displayMessage(`Too High!`)
     }
 
 
@@ -67,7 +67,7 @@ function displayGuess(guess) {
 }
  
 function displayMessage(message) {
-    loworhigh.innerHTML = `<h2>${message}</h2>`
+    loworhigh.innerHTML = `<h3 class="msgloworhi">${message}</h3>`
 
 }
 
