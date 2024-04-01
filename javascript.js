@@ -1,4 +1,4 @@
-let ran =parseInt(Math.round((Math.random()*10+1)))
+let ran =parseInt(Math.round((Math.random()*100+1)))
 console.log(ran);
 
 const submit = document.querySelector("#subt")
@@ -32,7 +32,7 @@ function validateGuess(guess) {
         alert("Please enter a number less than 100")
     }else {
         prevGuess.push(guess) 
-        if (numGuess === 11) {
+        if (numGuess === 10) {
             displayGuess(guess)
             displayMessage(`Game Over. Random Numbers is ${ran}`) 
             endGame()
@@ -80,14 +80,12 @@ function endGame() {
     playGame = false
     newGame()
 
-
-
 }
 
 function newGame() {
     const newgameButton = document.querySelector("#NewGame")
     newgameButton.addEventListener("click", function(e) {
-        ran =parseInt(Math.round((Math.random()*10+1)))
+        ran =parseInt(Math.round((Math.random()*100+1)))
         prevGuess = []
         numGuess = 1
         guessSlot.innerHTML = ""
